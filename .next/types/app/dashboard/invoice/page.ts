@@ -1,8 +1,8 @@
 // File: C:\Users\Noskey\Documents\React Apps\nextTutor\nextjs-dashboard\app\dashboard\invoice\page.tsx
-import * as entry from '../../../../../app/dashboard/invoice/page.js'
+import * as entry from '../../../../../app/dashboard/invoices/page.jsx'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/dashboard/invoice/page.js')
+type TEntry = typeof import('../../../../../app/dashboard/invoices/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
